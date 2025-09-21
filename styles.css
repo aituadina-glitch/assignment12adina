@@ -1,0 +1,92 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f6f8fb;
+  color: #222;
+  margin: 0;
+  padding: 20px;
+}
+
+.wrap {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+#page-heading {
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+/* Table styling */
+#grades-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 22px;
+}
+
+#grades-table thead th {
+  background: #2d6cdf;
+  color: #fff;
+  padding: 10px;
+}
+
+#grades-table td,
+#grades-table th {
+  border: 1px solid #dbe7ff;
+  padding: 10px;
+  text-align: center;
+}
+
+#grades-table tbody tr:nth-child(even) {
+  background: #f1f6ff; /* alternate rows */
+}
+
+.highlight-row {
+  background: #fff8e1 !important; /* highlight one row */
+}
+
+/* Form styling */
+.form-section {
+  background: #fff;
+  padding: 18px;
+  border-radius: 8px;
+  border: 1px solid #e6eefc;
+}
+
+#feedback-form {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+#feedback-form label {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+#feedback-form input[type="text"],
+#feedback-form input[type="email"],
+#feedback-form select,
+#feedback-form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 6px;
+  border: 1px solid #d5e2ff;
+  border-radius: 4px;
+}
+
+.submit-btn {
+  margin-top: 12px;
+  padding: 10px 14px;
+  border: none;
+  border-radius: 6px;
+  background: #2d6cdf;
+  color: #fff;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  opacity: 0.95;
+}
+
+/* Использованы и ID (#page-heading), и класс (.highlight-row) */
